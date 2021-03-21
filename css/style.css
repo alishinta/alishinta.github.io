@@ -368,14 +368,13 @@ h6 {
 .bstrap-cover,
 .video-hero {
   background-size: cover;
-  background-position: center center;
+  background-position: center center !important;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 @media screen and (max-width: 768px) {
   .bstrap-cover,
   .video-hero {
-    height: inherit;
+    background-position: center center;
   }
 }
 .bstrap-cover .display-t,
@@ -1062,6 +1061,9 @@ h6 {
 
 #bstrap-testimonials {
   position: relative;
+  background-size: cover;
+  background-position: center center !important;
+  background-repeat: no-repeat;
 }
 #bstrap-testimonials .overlay {
   position: absolute !important;
@@ -1094,7 +1096,6 @@ h6 {
 }
 #bstrap-testimonials .box-testimony {
   margin-bottom: 2em;
-  float: left;
 }
 #bstrap-testimonials .box-testimony a {
   color: rgba(255, 255, 255, 0.5);
