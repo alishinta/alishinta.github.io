@@ -1787,16 +1787,11 @@ h6 {
   animation-fill-mode: both;
 }
 
-.vidwrap {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
-.vidwrap iframe {
+.iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 
