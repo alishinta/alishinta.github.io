@@ -1787,11 +1787,23 @@ h6 {
   animation-fill-mode: both;
 }
 
-.iframe {
+.vidwrap {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.vidwrap::after {
+  padding-top: 56.25%;
+  display: block;
+  content: "";
+}
+
+.vidwrap iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100% !important;
+  width: 100%;
   height: 100%;
 }
 
