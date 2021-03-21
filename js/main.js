@@ -241,7 +241,15 @@
   };
 
   // Set the date we're counting down to
-  var countDownDate = new Date("Mar 25, 2021 14:00:00").getTime();
+  var countDownDate = new Date("Mar 25, 2021 12:00:00").getTime();
+
+  //FitVids
+  <script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $("#vidwrap").fitVids();
+  });
+  </script>
 
   // Update the count down every 1 second
   var x = setInterval(function () {
