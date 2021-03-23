@@ -701,11 +701,13 @@ h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
 #bstrap-couple .bismi {
   -webkit-border-radius: 0%;
   -moz-border-radius: 0%;
   -ms-border-radius: 0%;
   border-radius: 0%;
+  margin-bottom: 10px;
 }
 
 #bstrap-couple h3 {
